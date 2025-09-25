@@ -28,29 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblThreadStatus = new System.Windows.Forms.Label();
             this.BtnRUN = new System.Windows.Forms.Button();
+            this.lblThreadStatus = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // BtnRUN
+            // 
+            this.BtnRUN.Location = new System.Drawing.Point(290, 242);
+            this.BtnRUN.Name = "BtnRUN";
+            this.BtnRUN.Size = new System.Drawing.Size(194, 53);
+            this.BtnRUN.TabIndex = 3;
+            this.BtnRUN.Text = "RUN";
+            this.BtnRUN.UseVisualStyleBackColor = true;
             // 
             // lblThreadStatus
             // 
             this.lblThreadStatus.AutoSize = true;
             this.lblThreadStatus.Font = new System.Drawing.Font("Microsoft Tai Le", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThreadStatus.Location = new System.Drawing.Point(185, 168);
+            this.lblThreadStatus.Location = new System.Drawing.Point(187, 156);
             this.lblThreadStatus.Name = "lblThreadStatus";
             this.lblThreadStatus.Size = new System.Drawing.Size(426, 45);
-            this.lblThreadStatus.TabIndex = 0;
+            this.lblThreadStatus.TabIndex = 2;
             this.lblThreadStatus.Text = "-Before Starting Thread-";
-            // 
-            // BtnRUN
-            // 
-            this.BtnRUN.Location = new System.Drawing.Point(288, 254);
-            this.BtnRUN.Name = "BtnRUN";
-            this.BtnRUN.Size = new System.Drawing.Size(194, 53);
-            this.BtnRUN.TabIndex = 1;
-            this.BtnRUN.Text = "RUN";
-            this.BtnRUN.UseVisualStyleBackColor = true;
-            this.BtnRUN.Click += new System.EventHandler(this.BtnRUN_Click);
             // 
             // Form1
             // 
@@ -70,8 +69,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblThreadStatus;
         private System.Windows.Forms.Button BtnRUN;
+        private System.Windows.Forms.Label lblThreadStatus;
     }
 }
 

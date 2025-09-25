@@ -28,7 +28,7 @@ namespace LB_BasicThreading
         {
             lblThreadStatus.Text = "-Before starting thread-";
             Console.WriteLine(lblThreadStatus.Text);
-            
+
 
             Thread ThreadA = new Thread(new ThreadStart(MyThreadClass.Thread1));
             ThreadA.Name = "Thread A";
@@ -44,7 +44,7 @@ namespace LB_BasicThreading
 
             lblThreadStatus.Text = "-End of Thread-";
             Console.WriteLine(lblThreadStatus.Text);
-            
+
 
         }
     }
